@@ -1,0 +1,29 @@
+{
+  "name": "npxcard_nodejs",
+  "version": "1.0.0",
+  "description": "npxCard nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olygood/npxCard_nodeJs.git"
+  },
+  "author": "olygood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olygood/npxCard_nodeJs/issues"
+  },
+  "homepage": "https://github.com/olygood/npxCard_nodeJs#readme",
+  "dependencies": {
+    "boxen": "^3.0.0",
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.1",
+    "npx": "^10.2.0"
+  },
+  "bin": {
+  "npxcard_nodejs":"./index.js"
+}
+}
