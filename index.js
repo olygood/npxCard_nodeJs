@@ -1,8 +1,10 @@
 const box = require("boxen");
 const chalk = require("chalk");
 const figlet= require("figlet");
-
-figlet.text("                              NPX V-CARD", (err, data) => {
+figlet.text("           Antisec.by.Jeremy.Hamond", (err,data) => {
+    console.log(chalk.green.bold(data));
+})
+figlet.text("                                               NPX V-CARD", (err, data) => {
   
     console.log(chalk.green.bold(data) + "\n" + box(chalk.blue.bold("                        olygood \n")+
     chalk.blue.bold("                  Web Developer @Becode \n \n")+
