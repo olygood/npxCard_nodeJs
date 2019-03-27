@@ -17,3 +17,4 @@ figlet.text("                              NPX V-CARD", (err, data) => {
         padding: 2
     }));
 });
+//console.log()
